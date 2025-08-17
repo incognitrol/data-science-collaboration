@@ -369,6 +369,7 @@ def train_model(X_train, y_train, model_type='random_forest'):
             max_depth=10,
             random_state=42
         )
-    
+  
     model.fit(X_train, y_train)
     return model
+  
